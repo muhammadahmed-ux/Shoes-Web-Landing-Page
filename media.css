@@ -11,6 +11,7 @@
         text-align: center;
         margin-top: 2rem;
     }
+
     .main-content h1 {
         font-size: 2.5rem;
     }
@@ -19,8 +20,18 @@
         margin-top: 0.5rem;
     }
 
+    .about p {
+        font-size: 1.5rem;
+    }
 
-    
+    .about h2 {
+        font-size: 3rem;
+    }
+
+    .about button {
+        padding: 0.5rem;
+    }
+
 
 }
 
@@ -38,5 +49,25 @@
 
     .card-section .card-heading {
         font-size: 2rem;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width:500px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
     }
 }
